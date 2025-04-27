@@ -11,8 +11,8 @@ public class Automovel {
 
     private static int totalAutomoveis = 0;
 
-    /* Criação de um construtor, que tem o mesmo nome que a classe (todos os contrutores têm de ter a mesma aparência) */
-    /* Neste csao devem existir 4 construtores, um vazio, um cheio, um com string e um com int */
+    // Criação de um construtor, que tem o mesmo nome que a classe (todos os contrutores têm de ter a mesma aparência)
+    // Neste csao devem existir 4 construtores, um vazio, um cheio, um com string e um com int
     public Automovel() {
         matricula = MATRICULA_POR_OMISSAO;
         marca = MARCA_POR_OMISSAO;
@@ -73,7 +73,7 @@ public class Automovel {
         return (this.getCilindrada() - outroAutomovel.getCilindrada());
     }
 
-    /* Como retorna só verdadeiro e falso, não ´«e necessário o ciclo if */
+    // Como retorna só verdadeiro e falso, não ´«e necessário o ciclo if
     public boolean isCilindradaMaior(Automovel outroAutomovel) {
         return (this.getCilindrada() > outroAutomovel.getCilindrada());
     }
